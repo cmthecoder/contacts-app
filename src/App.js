@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>Hello React World</h1>
-      <h2>{message}</h2>
+      <h2 onClick={() => alert('you clicked the message!')}>{message}</h2>
     </div>
   );
 }
