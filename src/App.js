@@ -1,12 +1,12 @@
 import './App.css';
 
 function App() {
+  const message = 'This is my first variable rendered in JSX!'
+
   return (
     <div>
       <h1>Hello React World</h1>
-      <h2>
-        This is our first React App - isn't it marvellous?!
-      </h2>
+      <h2>{message}</h2>
     </div>
   );
 }
