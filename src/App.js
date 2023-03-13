@@ -1,4 +1,4 @@
-import './App.css';
+import './styles.css'
 
 function App() {
   const message = 'This is my first variable rendered in JSX!'
@@ -9,8 +9,11 @@ function App() {
 
   return (
     <div>
-      <h1>Hello React World</h1>
-      <h2 onClick={handleClick}>{message}</h2>
+      <img src="https://via.placeholder.com/150" alt="profile" />
+      <div className='user-details'></div>
+      <p>Name: Jenny Han</p>
+      <p>Email: Jenny.Han@notreal.com</p>
+      <p>Age: 25</p>
     </div>
   );
 }
